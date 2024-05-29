@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("./images/bg-intro-desktop.png");
+
+}
+
+h1 {
+    color: #e1e5ee;
+    font-size: 30px;
+}
+
+p {
+    color: #e1e5ee;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.first-container {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.second-container {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.form {
+    background-color: white;
+    border-radius: 12px;
+    margin-right: 150px;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.form-input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
+    border: 1px solid #e1e5ee;
+    border-radius: 5px;
+
+}
+
+.form-input:focus {
+    border-color: hsl(248, 32%, 49%);
+}
+
+.button-1 {
+    width: 75%;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    color: white;
+}
+
+
+.button-2 {
+    width: 85%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 35px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+
+span {
+    display:flex;
+    max-width: 29%;
+    margin-left: 65%;
+    font-size: 10px;
+    font-style: italic;
+    color: red;
+    margin-top: 5px;
+}
+
+.form-class,span {
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+.first-main{
+    
+    flex-direction: column;
+ }   
+ 
+}
